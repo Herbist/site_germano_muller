@@ -1,0 +1,2 @@
+<H4>Cássia Packer Koerich</H4>
+<p>Cássia Packer Koerich é Bacharel em Direito, formada pelo Centro Universitário Para o Desenvolvimento do Alto Vale do Itajaí - UNIDAVI. Possui experiência profissional na área jurídica, tendo realizado estágio na Polícia Civil, na assessoria de Juiz (Tribunal de Justiça de SC), bem como na assessoria do Ministério Público de SC. Atualmente auxilia na organização e recepção em nosso escritório.</p>

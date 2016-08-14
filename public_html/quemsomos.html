@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/estilo.css"  media="screen,projection"/>
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <title>Germano Müller Advogados Associados</title>
+        <script type="text/javascript">
+           $(document).ready(function () {
+
+                $(".escritorio").click(function () {
+                    $.get("escritorio.jsp", function (data, status) {
+                        $("#site").html(data);
+                    });
+                });
+            });
+            $(document).ready(function () {
+
+                $(".advogados").click(function () {
+                    $.get("advogados.jsp", function (data, status) {
+                        $("#site").html(data);
+                    });
+                });
+            });
+            $(document).ready(function () {
+
+                $(".colaboradores").click(function () {
+                    $.get("colaboradores.jsp", function (data, status) {
+                        $("#site").html(data);
+                    });
+                });
+            });
+        </script>
+    </head>
+
+    <body class="fundovermelho">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="nav-wrapper valign-wrapper">
+                        <a href="index.html" class="brand-logo"><img src="img/logo.png"></a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="menu hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quemsomos.html">Quem somos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quemsomos.html">Quem somos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3 letrabranca fontrodape">
+                        <a href="#" class="escritorio hoverable"><h5>Escritório</h5></a>
+                        <a href="#" class="advogados hoverable"><h5>Advogados</h5></a>
+                        <a href="#" class="colaboradores hoverable"><h5>Equipe</h5></a>
+                    </div>
+                    <div class="col s9 fontrodape letrabranca" id="site"></div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">    
+            <div class="row ">
+                <div style="bottom: 0px; padding: 0.5em" class="col s12  center-align fundoamarelo fontrodape">
+                    Copyright © Germano Müller Advogados Associados - Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/inicializar.js"></script>
+    </body>
+</html>
