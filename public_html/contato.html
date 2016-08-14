@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/estilo.css"  media="screen,projection"/>
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <title>Germano Müller Advogados Associados</title>
+    </head>
+
+    <body class="fundovermelho">
+        <div class="row">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="nav-wrapper valign-wrapper">
+                        <a href="index.html" class="brand-logo"><img src="img/logo.png"></a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="menu hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quemsomos.html">Quem somos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quemsomos.html">Quem somos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="fontrodape letrabranca">
+                            <p><h5>Telefone:</h5></p>
+                            47 3533-3663<br /><br />
+                            <p><h5>E-mail:</h5></p>
+                            germano_muller@hotmail.com<br /><br />
+                            <p><h5>Endereço:</h5></p>
+                            Travessa Jacob Sens, 22, sala 05<br /> Centro, Ituporanga/SC
+                        </div>
+                    </div>
+                    <div class="col s6">
+
+                        <form class="col s12 ">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Nome" id="nome" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <input placeholder="Sobrenome" id="sobrenome" type="text" class="validate">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input placeholder="E-mail" id="email" type="email" class="validate">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Telefone" id="telefone" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <input placeholder="Cidade" id="cidade" type="text" class="validate">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea placeholder="Mensagem" id="textarea1" class="materialize-textarea"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s2 offset-s5">
+                                <input type="submit" name="enviar" value="Enviar">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">    
+            <div class="row ">
+                <div style="bottom: 0px; padding: 0.5em" class="col s12  center-align fundoamarelo fontrodape">
+                    Copyright © Germano Müller Advogados Associados - Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/inicializar.js"></script>
+		<script>
+			jQuery(function($){
+				   $("#campoTelefone").mask("(999) 9999-9999");
+			});
+		</script>
+	
+    </body>
+</html>

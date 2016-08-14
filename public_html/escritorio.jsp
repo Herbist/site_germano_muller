@@ -1,0 +1,5 @@
+<h5>Germano Müller Advogados Associados</h5>
+<p>Nosso escritório tem como caráter principal prestar serviços jurídicos de forma ética. Atuante em diversas áreas do direito, nosso quadro de profissionais é qualificado para bem atender e buscar de maneira embasa na Lei soluções para os litígios que os clientes possuem.
+Norteamos nossos cooperadores para que sempre considere o problema do cliente como sendo nosso, tentando diminuir a carga que uma demanda exerce sobre o nosso investidor, utilizando-se então destes termos para incentivar e incitar a determinação de nossos profissionais em solucionar litígios e buscar os resultados investidos em nós pelo cliente.
+Temos profissionais, colaboradores e parceiros com evidenciado saber jurídico.
+O escritório está localizado na cidade de Ituporanga, Santa Catarina, sendo que o mesmo desempenha função importante e diversas ações propostas em todo o Estado, inclusive em outras partes do País. Sendo um escritório de advocacia já solidificado, com profissionais que atuam há anos no ramo do direito, garantimos aos nossos clientes um padrão especial de qualidade.</p>

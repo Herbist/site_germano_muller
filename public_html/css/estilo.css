@@ -1,0 +1,36 @@
+.fundovermelho{
+    background-color: #652929;
+}
+.fundoamarelo{
+    background-color: #8E5816;
+}
+.fontrodape{
+    font-family: "times new roma";
+}
+.letrabranca{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#menu{
+	font-family: "times new roma";
+        text-decoration: none;
+        color: #000;
+}
+.menu li {
+	float: left;
+	font-weight: bold;
+        padding-left: 3em;
+        padding-right: 3em;
+}
+.menu li:hover {
+	display: block;
+	background-color: #7C3232;
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+	s-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px;
+}
